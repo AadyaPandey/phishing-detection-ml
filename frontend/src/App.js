@@ -9,7 +9,7 @@ function App() {
   const handleSubmit = async (e) => {
   e.preventDefault();
   try {
-    const response = await axios.post('https://phishing-detection-ml-7nf6.onrender.com/predict', {
+    const response = await axios.post('https://phishing-detection-ml-7nf6.onrender.com/api/predict', {
       url: url
     });
     setResult(response.data.result);
