@@ -15,7 +15,7 @@ router.post('/api/predict', async (req, res) => {
     }
 
     // Call Python script
-    exec(`python3 python/predictor.py "${url}"`, (error, stdout, stderr) => {
+    exec(`python python/predictor.py "${url}"`, (error, stdout, stderr) => {
         if (error) {
             console.error(`Error: ${error.message}`);
             return res.status(500).json({ error: 'Prediction failed' });
