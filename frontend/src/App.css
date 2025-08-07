@@ -1,21 +1,18 @@
-/* Reset and base styling */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f9fafe;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #F4FDFD;
 }
 
-/* Header styling */
 .header {
-  color: #5959c5;
+  color: #212121;
   text-align: center;
-  font-size: 2 rem;
+  font-size: 2.5rem;
   margin: 4vh 0;
 }
 
-/* Centering the form */
 .main {
   display: flex;
   justify-content: center;
@@ -23,58 +20,60 @@
   height: 60vh;
   flex-direction: column;
   background-color: #ffffff;
-  border: 1px solid #e0e0e0;
-  border-radius: 12px;
+  border: 3px dashed #00C2B3;
+  border-radius: 20px;
   width: 60vw;
   margin: auto;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
 }
 
-/* Input field */
 input {
   height: 6vh;
   width: 40vh;
   padding: 0 1rem;
-  font-size: 0.8rem;
-  border: 2px solid #c5cae9;
-  border-radius: 8px;
+  font-size: 1rem;
+  border: 2px solid #b0ede8;
+  border-radius: 12px;
+  background-color: #ffffff;
+  color: #212121;
   outline: none;
-  transition: 0.3s;
+  transition: all 0.3s ease;
 }
 
 input:focus {
-  border-color: #a2aefb;
-  box-shadow: 0 0 5px rgba(57, 73, 171, 0.3);
+  border-color: #00C2B3;
+  box-shadow: 0 0 8px rgba(0, 194, 179, 0.4);
 }
 
-/* Button styling */
 button {
   margin-top: 3vh;
-  padding: 0.8rem 2rem;
-  background-color: #5959c5;
+  padding: 0.8rem 2.5rem;
+  background-color: #FF6F61;
   color: white;
   border: none;
-  border-radius: 8px;
-  font-size: 1rem;
+  border-radius: 12px;
+  font-size: 1.1rem;
   cursor: pointer;
-  transition: 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #9da8ef;
+  background-color: #e15c4f;
 }
 
-/* Response messages */
 p {
   margin-top: 3vh;
   font-size: 1.3rem;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
   padding: 1rem 2rem;
-  border-radius: 8px;
+  border-radius: 12px;
+  background-color: #00C2B3;
+  color: white;
+  box-shadow: 0 0 12px rgba(0, 194, 179, 0.3);
   width: fit-content;
   max-width: 80%;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
