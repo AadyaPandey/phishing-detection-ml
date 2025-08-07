@@ -51,3 +51,24 @@ phishing-detection/
 │   └── App.js
 │
 └── README.md
+
+```
+1Train the Model (Python)
+cd train_model
+python main.py
+
+2Start the Backend Server
+cd ../backend
+npm install
+node server.js
+
+3Start the Frontend (React)
+cd ../frontend
+npm install
+npm start
+
+<img width="958" height="428" alt="image" src="https://github.com/user-attachments/assets/29a7dcc8-5abe-48a6-b8f5-b787bc05a394" />
+<img width="957" height="424" alt="image" src="https://github.com/user-attachments/assets/0237980b-f17d-4fc8-b14e-b21dcac5c4ed" />
+<img width="959" height="422" alt="image" src="https://github.com/user-attachments/assets/87ec95b3-4964-4e06-b521-f29d3ea434b9" />
+
+
