@@ -3,4 +3,5 @@ services:
     name: phishing-backend
     env: node
     buildCommand: ./build.sh && npm install
-    startCommand: node server.js
+    startCommand: node backend/index.js
+    plan: free
