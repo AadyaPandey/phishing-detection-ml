@@ -37,9 +37,9 @@ function App() {
       </div>
    </form>
    </div>
-   {result === "1" && <p style={{ color: 'green' }}>✅ Site is Safe</p>}
-   {result === "0" && <p style={{ color: 'red' }}>⚠️ Phishing Detected</p>}
-    {result === 'error' && <p style={{ color: 'orange' }}>⚠️ Error checking the site</p>}
+   {result === 1 && <p style={{ color: 'green' }}>✅ Site is Safe</p>}
+{result === 0 && <p style={{ color: 'red' }}>⚠️ Phishing Detected</p>}
+{result === 'error' && <p style={{ color: 'orange' }}>⚠️ Error checking the site</p>}
 
     </>
   )
