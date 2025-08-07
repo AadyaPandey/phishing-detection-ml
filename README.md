@@ -53,16 +53,26 @@ phishing-detection/
 └── README.md
 
 ```
-1Train the Model (Python)
+🚀 Getting Started
+Follow these steps to run the project locally:
+
+1️⃣ Train the Model (Python)
+bash
+Copy
+Edit
 cd train_model
 python main.py
-
-2Start the Backend Server
+2️⃣ Start the Backend Server
+bash
+Copy
+Edit
 cd ../backend
 npm install
 node server.js
-
-3Start the Frontend (React)
+3️⃣ Start the Frontend (React)
+bash
+Copy
+Edit
 cd ../frontend
 npm install
 npm start
