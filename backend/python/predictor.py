@@ -14,7 +14,7 @@ def main():
     # Get current script directory
     current_dir = os.path.dirname(__file__)
     # Go up two folders (from backend/python to project root), then into train_model folder
-    model_path = os.path.join(current_dir, '..', '..', 'train_model', 'phishing_model.pkl')
+    model_path = os.path.join(current_dir, '..', 'phishing_model.pkl')
     model_path = os.path.abspath(model_path)  # get absolute path
 
     # Load the saved model and vectorizer
