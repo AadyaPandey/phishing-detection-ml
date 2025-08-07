@@ -14,7 +14,6 @@ A full-stack machine learning web application that detects whether a given URL i
   - Python + scikit-learn ML model
 - 🔁 Seamless integration via REST API
 - 💾 Model saved using `pickle` for reuse
-- 🌐 Deployed on Vercel (frontend) and Render (backend)
 
 ---
 
