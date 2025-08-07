@@ -15,7 +15,7 @@ router.post('/api/predict', async (req, res) => {
     }
 
     // Call Python script
-    exec(`python python/predictor.py "${url}"`, (error, stdout, stderr) => {
+    exec(`python3 python/predictor.py "${url}"`, (error, stdout, stderr) => {
         if (error) {
             console.error(`Error: ${error.message}`);
             return res.status(500).json({ error: 'Prediction failed' });
@@ -32,6 +32,8 @@ router.post('/api/predict', async (req, res) => {
 });
 app.use(router);
 
-app.listen(5000, () => {
-    console.log('Server running on http://localhost:5000');
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server running on port ${PORT}`);
 });

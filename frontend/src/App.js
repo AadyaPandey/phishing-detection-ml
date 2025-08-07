@@ -9,7 +9,7 @@ function App() {
   const handleSubmit = async (e) => {
   e.preventDefault();
   try {
-    const response = await axios.post('http://localhost:5000/api/predict', {
+    const response = await axios.post('https://phishing-detection-ml-7nf6.onrender.com/api/predict', {
       url: url
     });
     setResult(response.data.result);
@@ -37,9 +37,10 @@ function App() {
       </div>
    </form>
    </div>
-   {result === "1" && <p style={{ color: 'green' }}>✅ Site is Safe</p>}
-   {result === "0" && <p style={{ color: 'red' }}>⚠️ Phishing Detected</p>}
+     {result === "1" && <p style={{ color: 'green' }}>✅ Site is Safe</p>}
+    {result === "0" && <p style={{ color: 'red' }}>⚠️ Phishing Detected</p>}
     {result === 'error' && <p style={{ color: 'orange' }}>⚠️ Error checking the site</p>}
+
 
     </>
   )
