@@ -26,7 +26,6 @@ A full-stack machine learning web application that detects whether a given URL i
 | Machine Learning | Python, scikit-learn |
 | Communication| Axios                  |
 | Model Format | `phishing_model.pkl`   |
-| Deployment   | Vercel + Render        |
 
 ---
 
