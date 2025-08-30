@@ -69,10 +69,7 @@ Follow these steps to run the project locally:
 - cd frontend
 - npm install
 - npm start
-    
-## 🌍 Live Demo
-Check the Hugging Face Space here:  
-👉 [Phishing URL Detector](https://AadyaPandey-phishing-url-detector.hf.space)
+
 <img width="957" height="434" alt="image" src="https://github.com/user-attachments/assets/0660c61e-4f42-4b70-88b4-dbc8178db652" />
 <img width="954" height="433" alt="image" src="https://github.com/user-attachments/assets/5984ac21-8863-4081-8412-2ea80d1f5151" />
 
