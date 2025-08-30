@@ -70,9 +70,12 @@ Follow these steps to run the project locally:
 - npm install
 - npm start
     
+## 🌍 Live Demo
+Check the Hugging Face Space here:  
+👉 [Phishing URL Detector](https://AadyaPandey-phishing-url-detector.hf.space)
+<img width="957" height="434" alt="image" src="https://github.com/user-attachments/assets/0660c61e-4f42-4b70-88b4-dbc8178db652" />
+<img width="954" height="433" alt="image" src="https://github.com/user-attachments/assets/5984ac21-8863-4081-8412-2ea80d1f5151" />
 
-<img width="958" height="428" alt="image" src="https://github.com/user-attachments/assets/29a7dcc8-5abe-48a6-b8f5-b787bc05a394" />
-<img width="957" height="424" alt="image" src="https://github.com/user-attachments/assets/0237980b-f17d-4fc8-b14e-b21dcac5c4ed" />
-<img width="959" height="422" alt="image" src="https://github.com/user-attachments/assets/87ec95b3-4964-4e06-b521-f29d3ea434b9" />
+
 
 
